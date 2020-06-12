@@ -30,3 +30,8 @@ C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Basics.dl
 C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Basics.pdb
 C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Basics.genruntimeconfig.cache
 C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Basics.csproj.CopyComplete
+C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Razor\Pages\Razor\Index.cshtml.g.cs
+C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Razor\Pages\Razor\Secured.cshtml.g.cs
+C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Razor\Pages\Razor\Policy.cshtml.g.cs
+C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Razor\Pages\RazorSecured\Anon.cshtml.g.cs
+C:\Users\Frank\Documents\Fontys\S6\OIDC\Basics\obj\Debug\netcoreapp3.1\Razor\Pages\RazorSecured\Index.cshtml.g.cs
