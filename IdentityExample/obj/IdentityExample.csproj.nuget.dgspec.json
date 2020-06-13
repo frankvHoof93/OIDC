@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\IdentityExample\\IdentityExample.csproj": {}
+    "C:\\Users\\Frank\\Documents\\OIDC\\IdentityExample\\IdentityExample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\IdentityExample\\IdentityExample.csproj": {
+    "C:\\Users\\Frank\\Documents\\OIDC\\IdentityExample\\IdentityExample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\IdentityExample\\IdentityExample.csproj",
+        "projectUniqueName": "C:\\Users\\Frank\\Documents\\OIDC\\IdentityExample\\IdentityExample.csproj",
         "projectName": "IdentityExample",
-        "projectPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\IdentityExample\\IdentityExample.csproj",
+        "projectPath": "C:\\Users\\Frank\\Documents\\OIDC\\IdentityExample\\IdentityExample.csproj",
         "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\IdentityExample\\obj\\",
+        "outputPath": "C:\\Users\\Frank\\Documents\\OIDC\\IdentityExample\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -73,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

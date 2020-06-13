@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Basics\\Basics.csproj": {}
+    "C:\\Users\\Frank\\Documents\\OIDC\\Basics\\Basics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Basics\\Basics.csproj": {
+    "C:\\Users\\Frank\\Documents\\OIDC\\Basics\\Basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Basics\\Basics.csproj",
+        "projectUniqueName": "C:\\Users\\Frank\\Documents\\OIDC\\Basics\\Basics.csproj",
         "projectName": "Basics",
-        "projectPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Basics\\Basics.csproj",
+        "projectPath": "C:\\Users\\Frank\\Documents\\OIDC\\Basics\\Basics.csproj",
         "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Basics\\obj\\",
+        "outputPath": "C:\\Users\\Frank\\Documents\\OIDC\\Basics\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
