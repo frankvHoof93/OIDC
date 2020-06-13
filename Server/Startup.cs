@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using System;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -36,6 +37,7 @@ namespace Server
                     {
                         ValidIssuer = Constants.Issuer,
                         ValidAudience = Constants.Audience,
+                        ClockSkew = TimeSpan.Zero,
                         IssuerSigningKey = key
                     };
                 });

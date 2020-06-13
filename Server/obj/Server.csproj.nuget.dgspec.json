@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Frank\\Documents\\OIDC\\Server\\Server.csproj": {}
+    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Server\\Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Frank\\Documents\\OIDC\\Server\\Server.csproj": {
+    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Server\\Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frank\\Documents\\OIDC\\Server\\Server.csproj",
+        "projectUniqueName": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Server\\Server.csproj",
         "projectName": "Server",
-        "projectPath": "C:\\Users\\Frank\\Documents\\OIDC\\Server\\Server.csproj",
+        "projectPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Server\\Server.csproj",
         "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frank\\Documents\\OIDC\\Server\\obj\\",
+        "outputPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\Server\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\Frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -44,6 +41,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.6.0, )"
             }
           },
           "imports": [
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

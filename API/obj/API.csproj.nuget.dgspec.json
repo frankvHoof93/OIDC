@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Frank\\Documents\\OIDC\\API\\API.csproj": {}
+    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Frank\\Documents\\OIDC\\API\\API.csproj": {
+    "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Frank\\Documents\\OIDC\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Frank\\Documents\\OIDC\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Frank\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Frank\\Documents\\OIDC\\API\\obj\\",
+        "outputPath": "C:\\Users\\Frank\\Documents\\Fontys\\S6\\OIDC\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

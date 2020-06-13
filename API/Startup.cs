@@ -1,4 +1,5 @@
 using API.AuthRequirement;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -12,27 +13,9 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
-            // To return 401
-            services.AddAuthentication(config =>
-            {
-                config.RequireAuthenticatedSignIn = false;
-                config.DefaultChallengeScheme = "Server";
-            })
-                .AddOAuth("Server", config =>
-                {
-                    // Specifies Endpoint IN THE MIDDLEWARE where callbacks are handled after authentication
-                    // I.E Endpoint to return to after authentication. Setting to oauth/callback will return to initial request-uri (before redirect to login)
-                    config.CallbackPath = "/oauth/callback";
-                    // Identifies this client (application) as trustworthy
-                    config.ClientId = "OAuthClient";
-                    config.ClientSecret = "OAuthClientSecret";
-                    // Redirect-Endpoint to Authenticate at for Authorization
-                    config.AuthorizationEndpoint = "https://localhost:44379/oauth/login";
-                    // Endpoint where Token is Access-Token can be attained
-                    config.TokenEndpoint = "https://localhost:44379/oauth/token";
-
-                    config.SaveTokens = true;
-                });
+            // To return 401 if no Token is present
+            services.AddAuthentication("DefaultAuth")
+                .AddScheme<AuthenticationSchemeOptions, CustomAuthenticationHandler>("DefaultAuth", null);
 
             services.AddAuthorization(config =>
             {
